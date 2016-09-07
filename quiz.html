@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+
+<div class="container" align="center">
+<div class="page-header">
+<h1 align="center">Know Your Pokemon Types!</h1>
+</div>
+
+
+    <div id="show-number"><h2>60</h2></div>
+
+	<br>
+<div class="row">
+<div class="col-md-12">
+
+
+
+
+<form>
+
+	<li><div class="question">"What type is Pikachu"</div></li>
+		<input id="answer" type="radio" name="group1" value="wrong"> Fire <br>
+		<input id="answer" type="radio" name="group1" value="wrong"> Water<br>
+		<input id="answer" type="radio" name="group1" value="wrong"> Grass<br>
+		<input id="answer" type="radio" name="group1" value="correct"> Electric<br>
+
+<br>
+
+	<li><div class="question">"What type is Squirtle"</div></li>
+		<input id="answer" type="radio" name="group2" value="wrong"> Fire<br>
+		<input id="answer" type="radio" name="group2" value="correct"> Water<br>
+		<input id="answer" type="radio" name="group2" value="wrong"> Grass<br>
+		<input id="answer" type="radio" name="group2" value="wrong"> Electric<br>
+
+<br>
+
+	<li><div class="question">"What type is Charmander"</div></li>
+		<input id="answer" type="radio" name="group3" value="correct"> Fire<br>
+		<input id="answer" type="radio" name="group3" value="wrong"> Water<br>
+		<input id="answer" type="radio" name="group3" value="wrong"> Grass<br>
+		<input id="answer" type="radio" name="group3" value="wrong"> Electric<br>
+
+<br>
+
+	<li><div class="question">"What type is Bulbasaur"</div></li>
+		<input id="answer" type="radio" name="group4" value="wrong"> Fire<br>
+		<input id="answer" type="radio" name="group4" value="wrong"> Water<br>
+		<input id="answer" type="radio" name="group4" value="correct"> Grass<br>
+		<input id="answer" type="radio" name="group4" value="wrong"> Electric<br>
+
+<br>
+
+	<li><div class="question">"What type is Chikorita"</div></li>
+		<input id="answer" type="radio" name="group5" value="wrong"> Fire<br>
+		<input id="answer" type="radio" name="group5" value="wrong"> Water<br>
+		<input id="answer" type="radio" name="group5" value="correct"> Grass<br>
+		<input id="answer" type="radio" name="group5" value="wrong"> Electric<br>
+
+<br>
+
+	<li><div class="question">"What type is Cyndaquil"</div></li>
+		<input id="answer" type="radio" name="group6" value="correct"> Fire<br>
+		<input id="answer" type="radio" name="group6" value="wrong"> Water<br>
+		<input id="answer" type="radio" name="group6" value="wrong"> Grass<br>
+		<input id="answer" type="radio" name="group6" value="wrong"> Electric<br>
+
+<br>
+
+	<li><div class="question">"What type is Totodile"</div></li>
+		<input id="answer" type="radio" name="group7" value="wrong"> Fire<br>
+		<input id="answer" type="radio" name="group7" value="correct"> Water<br>
+		<input id="answer" type="radio" name="group7" value="wrong"> Grass<br>
+		<input id="answer" type="radio" name="group7" value="wrong"> Electric<br>
+
+<br>
+
+	<li><div class="question">"What type is Torchic"</div></li>
+		<input id="answer" type="radio" name="group8" value="correct"> Fire<br>
+		<input id="answer" type="radio" name="group8" value="wrong"> Water<br>
+		<input id="answer" type="radio" name="group8" value="wrong"> Grass<br>
+		<input id="answer" type="radio" name="group8" value="wrong"> Electric<br>
+
+<br>
+
+	<li><div class="question">"What type is Mudkip"</div></li>
+		<input id="answer" type="radio" name="group9" value="wrong"> Fire<br>
+		<input id="answer" type="radio" name="group9" value="correct"> Water<br>
+		<input id="answer" type="radio" name="group9" value="wrong"> Grass<br>
+		<input id="answer" type="radio" name="group9" value="wrong"> Electric<br>
+
+<br>
+
+
+	<li><div class="question">"What type is Treecko"</div></li>
+		<input id="answer" type="radio" name="group10" value="wrong"> Fire<br>
+		<input id="answer" type="radio" name="group10" value="wrong"> Water<br>
+		<input id="answer" type="radio" name="group10" value="correct"> Grass<br>
+		<input id="answer" type="radio" name="group10" value="wrong"> Electric<br>
+
+<br>
+
+
+
+</form>
+<button id="stop">Submit</button>	
+
+<!-- Score -->
+<div class="score" >
+	<h1 class="correct"></h1>
+	<h1 class="wrong"></h1>
+	<h1 class="unanswered"></h1>
+</div>
+<!-- Score -->
+
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+
+
+    <script>
+        /**
+         * Interval Demonstration
+         **/
+
+        // Set our number counter to 60.
+        var number = 60;
+		var	correctAnswers = 0;
+		var wrongAnswers = 0;
+		var unanswered = 0;
+
+
+        $('#stop').click(function(){
+        	stop();
+        	submitClick();
+        });
+
+        function run(){
+            counter = setInterval(decrement, 1000);
+        }
+
+
+
+
+        // The decremeent function.
+        function decrement(){
+            // Decrease number by one.
+            number--;
+            // Show the number in the #show-number tag.
+            $('#show-number').html('<h2>' + number + '</h2>');
+
+            // Once number hits zero...
+            if (number === 0){
+                // ...run the stop function.
+                stop();
+                // Alert the user that time is up.
+                alert('Times Up!');
+                submitClick();
+            }
+        }
+
+
+
+        // The stop function
+        function stop(){
+            // Clears our "counter" interval.
+            // We just pass the name of the interval
+            // to the clearInterval function.
+            clearInterval(counter);
+        }
+
+		function submitClick(){
+
+			correctAnswers = 0;
+			wrongAnswers = 0;
+			for (var i=1; i<11; i++){
+				var radios = document.getElementsByName('group'+i);
+				for (var j = 0; j<radios.length; j++){
+					var radio = radios[j];
+					if (radio.value == "correct" && radio.checked){
+						correctAnswers++
+					}else if (radio.value == "wrong" && radio.checked){
+						wrongAnswers++
+					
+					}
+
+					}
+				}
+
+			$('.correct').html("Correct Answers: " + correctAnswers);
+			$('.wrong').html("Wrong Answers: " + wrongAnswers);
+			$('.unanswered').html("Not Answered: " + unanswered);
+
+			}
+
+
+        // Execute the run function.
+        run();
+
+
+    </script>
+</html>
